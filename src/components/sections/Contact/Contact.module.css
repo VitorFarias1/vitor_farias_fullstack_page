@@ -1,0 +1,8 @@
+.heading {
+  font-size: var(--font-size-2xl);
+}
+
+.subheading {
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}

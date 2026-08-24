@@ -1,0 +1,17 @@
+.switcher {
+  display: flex;
+  gap: var(--space-2);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.option {
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+}
+
+.option:hover {
+  color: var(--color-text);
+  background: var(--color-bg-alt);
+}

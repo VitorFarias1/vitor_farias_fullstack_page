@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Vitor Farias — Desenvolvedor de Software",
+    "description": "Portfólio de Vitor Farias, desenvolvedor de software — trajetória e projetos."
+  },
+  "nav": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "about": {
+    "kicker": "Olá, eu sou",
+    "name": "Vitor Farias",
+    "role": "Desenvolvedor Full Stack",
+    "heading": "Sobre",
+    "photoAlt": "Foto de Vitor Farias",
+    "paragraphs": [
+      "Desenvolvedor de software focado em construir aplicações web e sistemas corporativos.",
+      "Iniciei os meus estudos na área da Tecnologia da Informação no ano de 2022, ingressando na Faculdade de Tecnologia de São Paulo. Desde então, todos os dias aprendo mais e mais sobre como construir sistemas de uma maneira mais efetiva.",
+      "Meu objetivo é resolver problemas para ajudar empresas e pessoas a alcançarem os seus objetivos com o uso da tecnologia."
+    ],
+    "skillsHeading": "Habilidades",
+    "skills": ["React", "Angular", "Next.js",".NET", "Python", "Node.js"]
+  },
+  "projects": {
+    "heading": "Projetos",
+    "subheading": "Projetos desenvolvidos:",
+    "demoLabel": "Ver demo",
+    "repoLabel": "Código-fonte"
+  },
+  "contact": {
+    "heading": "Contato",
+    "subheading": "Tem um projeto em mente ou só quer dizer oi? Me manda uma mensagem.",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Seu nome",
+    "emailLabel": "Email",
+    "emailPlaceholder": "voce@exemplo.com",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Me conta um pouco sobre o que você tem em mente...",
+    "submit": "Enviar mensagem",
+    "sending": "Enviando...",
+    "success": "Obrigado! Em breve entro em contato.",
+    "error": "Algo deu errado. Tente novamente ou me envie um email diretamente."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}

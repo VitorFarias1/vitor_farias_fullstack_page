@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Vitor Farias — Software Developer",
+    "description": "Portfolio of Vitor Farias, software developer — trajectory and projects."
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "kicker": "Hi, I'm",
+    "name": "Vitor Farias",
+    "role": "Full Stack Software Developer",
+    "heading": "About",
+    "photoAlt": "Photo of Vitor Farias",
+    "paragraphs": [
+      "Software developer focused on building web applications and enterprise systems.",
+      "I began my studies in Information Technology in 2022, when I enrolled at the São Paulo College of Technology. Since then, I have been continuously learning and improving my knowledge of how to build systems more effectively.",
+      "My goal is to solve problems and help companies and people achieve their goals through technology."
+    ],
+    "skillsHeading": "Skills",
+    "skills": ["React", "Angular", "Next.js",".NET", "Python", "Node.js"]
+  },
+  "projects": {
+    "heading": "Projects",
+    "subheading": "Developed projects:",
+    "demoLabel": "Live demo",
+    "repoLabel": "Source code"
+  },
+  "contact": {
+    "heading": "Contact",
+    "subheading": "Have a project in mind or just want to say hi? Send me a message.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me a bit about what you have in mind...",
+    "submit": "Send message",
+    "sending": "Sending...",
+    "success": "Thanks! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again or email me directly."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

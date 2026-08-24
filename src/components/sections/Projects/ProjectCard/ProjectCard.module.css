@@ -1,0 +1,79 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.card:hover,
+.card:focus-within {
+  background: #fff;
+  color: #171717;
+}
+
+.stretchedLink {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+}
+
+.description {
+  color: var(--color-text-muted);
+  line-height: var(--line-height-relaxed);
+  transition: color 1s ease;
+}
+
+.card:hover .description,
+.card:focus-within .description {
+  color: #4b4b52;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  list-style: none;
+}
+
+.techItem {
+  font-size: var(--font-size-xs);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.card:hover .techItem,
+.card:focus-within .techItem {
+  background: #f0f0f2;
+  color: #4b4b52;
+}
+
+.links {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: var(--space-4);
+  margin-top: auto;
+  padding-top: var(--space-2);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.links a {
+  color: var(--color-accent);
+}
+
+.links a:hover {
+  color: var(--color-accent-hover);
+}
