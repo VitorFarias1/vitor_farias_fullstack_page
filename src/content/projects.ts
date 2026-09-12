@@ -9,7 +9,7 @@ export const projects: Project[] = [
       pt: "Projeto que simula uma comunidade gastronômica, permitindo que os usuários visualizem detalhes de receitas e compartilhem suas próprias receitas.",
     },
     techStack: ["React.js", "Next.js"],
-    links: { repo: "https://github.com/VitorFarias1/food_app", demo: "https://food-app-o58j-4xs58vqzh-vitorfarias1s-projects.vercel.app/" },
+    links: { repo: "https://github.com/VitorFarias1/food_app", demo: "https://food-app-o58j.vercel.app/" },
     featured: true,
     year: 2026,
   },
